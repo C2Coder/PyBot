@@ -7,6 +7,8 @@ bot_id = 1033058024450965546
 user = "ProsteMC_1"
 pswd = "?ProsteMC?"
 
+#testing
+
 
 try:
     aternos = Client.restore_session(user,pswd)
