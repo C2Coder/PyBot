@@ -11,7 +11,7 @@ pswd = "?ProsteMC?"
 
 
 try:
-    aternos = Client.restore_session(user,pswd)
+    aternos = Client.restore_session()
 except:
     aternos = Client.from_credentials(user, pswd)
 
